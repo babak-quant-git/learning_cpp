@@ -1,0 +1,2 @@
+Checks: 'bugprone-*,cert-*,cppcoreguidelines-*,performance-*,readability-*'
+WarningsAsErrors: '*'
