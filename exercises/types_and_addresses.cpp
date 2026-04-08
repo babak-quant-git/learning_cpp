@@ -4,7 +4,6 @@ int main() {
   int number{13};
   double price{5.4};
   bool is_ready{true};
-  // int fake_number{3.2};
 
   std::cout << number << " is " << sizeof(number) << " bytes\n";
   std::cout << price << " is " << sizeof(price) << " bytes\n";
