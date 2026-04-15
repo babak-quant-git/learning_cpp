@@ -8,6 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(hft_engine src/main.cpp)
 add_executable(types_and_addresses exercises/types_and_addresses.cpp)
+add_executable(memory_sizes exercises/memory_sizes.cpp)
 
 target_compile_options(hft_engine PRIVATE
   -Wall
